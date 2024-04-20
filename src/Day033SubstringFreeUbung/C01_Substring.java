@@ -2,7 +2,7 @@ package Day033SubstringFreeUbung;
 
 import java.util.Scanner;
 
-public class C01_ {
+public class C01_Substring {
    static Scanner scan=new Scanner(System.in);
     public static void main(String[] args) {
 

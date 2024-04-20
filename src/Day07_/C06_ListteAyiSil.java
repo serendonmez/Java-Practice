@@ -3,7 +3,7 @@ package Day07_;
 import java.util.ArrayList;
 import java.util.List;
 
-public class C06_ {
+public class C06_ListteAyiSil {
 
     /*
      * Input olarak verilen listteki isimlerden

@@ -1,4 +1,4 @@
-package Day6_Projeckt;
+package Day6_Project;
 
 import java.util.Scanner;
 
