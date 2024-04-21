@@ -45,22 +45,12 @@ public class C01_Substring {
 
 
 
-      //  System.out.println(satz.substring(satz.lastIndexOf(" ")));
-       // System.out.println(satz.charAt(satz.length()- 1));
-
-
         //Schreiben Sie ein Programm,
         // das den Benutzer nach einem Wort fragt
         // und dann alle Buchstaben außer dem ersten und dem letzten Buchstaben ausgibt.
 
-        Scanner scann=new Scanner(System.in);
-        System.out.print("geben Sie ein Wort ein :");
-        String wort = scann.nextLine();
-        System.out.println(wort.substring(1, wort.length()-1)); // kadar dedigimiz 2. yeri vermez
-        System.out.println(wort.length()-1);
+      ausserErstUndLetzt("Monika");
 
-        String str = "seren sevim ";
-        System.out.println(str.indexOf(0));
 
 
 
@@ -71,6 +61,13 @@ public class C01_Substring {
         System.out.println("Geben Sie bitte ein Satz ein");
         String satz=scan.nextLine();
         System.out.println(satz.substring(satz.lastIndexOf(" ", satz.length() - 1)));
+
+    }
+
+    public static void ausserErstUndLetzt(String name){
+
+        System.out.println(name.substring(1, name.length() - 1));
+
 
     }
 }

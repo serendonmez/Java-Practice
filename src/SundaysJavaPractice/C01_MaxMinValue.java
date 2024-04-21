@@ -9,6 +9,7 @@ public class C01_MaxMinValue {
         // Bu değerleri girdikten sonra, günün en sıcak ve soğuk değerlerini ekrana yazdırınız.
 
         Scanner scanner = new Scanner(System.in);
+
         System.out.println(" sicaklik degeri giriniz( veri girisini sonlandirmak icin \"e\" ye basin ");
 
         double maxSicaklik= Double.MIN_VALUE; // ilk deger sabitlyip digerleriyle kiyaslamak gibi 

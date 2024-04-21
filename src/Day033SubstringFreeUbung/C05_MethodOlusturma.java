@@ -7,7 +7,7 @@ public class C05_MethodOlusturma {
     // Verwenden Sie dazu die substring-Methode.
 
     public static void main(String[] args) {
-        System.out.println(isSubstring("selin", "Selin seda sevim"));
+        System.out.println(isSubstring("Süreyya","Yasemin"));
 
 
     }
