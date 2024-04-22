@@ -17,6 +17,9 @@ public class C03_SicaklikMinMaxDeger_Regex {
         while (true) { // döngü sartsiz calissin istiyorsak ancak sonsuz döngüye girmemesi icin
             // icine sart koyup break yazmaliyiz
             String input = scan.nextLine();
+            System.out.println("eee");
+            System.out.println(input.matches("-?\\d"));
+
             if (input.equals("e")) {
                 break;
             } else if (!input.matches("-?\\d+(\\.\\d+)")) {

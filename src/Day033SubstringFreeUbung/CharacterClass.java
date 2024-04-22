@@ -1,6 +1,6 @@
 package Day033SubstringFreeUbung;
 
-public class CharacterChar {
+public class CharacterClass {
 
     public static void main(String[] args) {
         char ch1;
@@ -70,6 +70,12 @@ public class CharacterChar {
 
         String str = Character.toString('Y');
         System.out.println(str);
+
+        Character.isUpperCase('S'); // booleAn
+
+
+
+
 
 
 

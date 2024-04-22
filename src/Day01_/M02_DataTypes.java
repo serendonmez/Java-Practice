@@ -60,7 +60,12 @@ public class M02_DataTypes {
          System.out.println("isim = " + isim.toLowerCase());
         System.out.println("isim = " + isim.toUpperCase().charAt(0)); // sadece ilk harfi büyük yazdirdi
 
-        System.out.println("isim = " + isim.toUpperCase());
+        System.out.println("isim = " + isim.toUpperCase()); // variable--> Data type --> String
+
+        System.out.println(Character.isLetter((char)'A')); // methodlar---> return typi olur --> boolean
+
+
+
 
 
 
