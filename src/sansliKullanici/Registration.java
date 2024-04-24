@@ -28,19 +28,21 @@ public class Registration {
 static ArrayList<User> usersList= new ArrayList<>();
 
 static public void register(){
-    Scanner scanner = new Scanner(System.in);
-    System.out.println(" Enter your name");
-    String name = scanner.nextLine();
-    System.out.println(" enter your birtdate (YYYY-MM-dd format)");
-    String date = scanner.nextLine();
-    LocalDate birthdate = LocalDate.parse(date);
 
+    Scanner scan=new Scanner(System.in);
+    System.out.println("Enter your name: ");
+    String name= scan.nextLine();
 
+    System.out.println("Enter your birthdate (YYYY-MM-dd format");
+    String date= scan.nextLine();
+    LocalDate birthdate=LocalDate.parse(date);
 
+    User user=new User(name,birthdate);
+    usersList.add(user);
 
+    System.out.println("User registered.");
 
 }
-
 
 
 

@@ -2,7 +2,7 @@ package Day07_;
 
 import java.util.Arrays;
 
-public class C02_MultiDimensionalArrays {
+public class C02_MultiDimensionalArrays_nestedforLoop {
 
     // multidimensional arrayin iç array lerindeki tüm elemanların toplamını birer
     // birer bulan ve herbir sonucu yeni bir arrayin elemanı yapan ve yeni array i ekrana

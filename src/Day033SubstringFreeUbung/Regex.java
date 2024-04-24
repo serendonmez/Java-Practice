@@ -39,7 +39,7 @@ public class Regex {
         Scanner scanner = new Scanner(System.in);
         for (int i = 0; i < 6; i++) {
             System.out.println("Bitte geben Sie was ein");
-            System.out.println( hatVierBisNeun(scanner.nextLine()));
+            System.out.println( sonu$(scanner.nextLine()));
 
         }
 
@@ -95,13 +95,30 @@ public class Regex {
         return s.matches("\\w{0,}"); // {0, } --> 0 dan sonsuza tüm inputlar sayi rakam ya da _ olabilsin.
     }
 
+    public static boolean sonu$(String s){
+
+        return s.matches("^[A-Za-z][A-Za-z0-9!@#$%^&*]*$");
+
+        //^[A-Za-z]--> ilk harf
+        // [A-Za-z0-9!@#$%^&*] --> ilk harften sonra
+        //* --> en son bununla bitir.
+    }
 
 
 
-    /* \\w ile [a-z] farki : -->
+
+    /* (\\w) ile [a-z] farki : -->
     [a-zA-Z0-9_] ==\\w
     "abc123_" ifadesi ikisi icin de esit.
+     Köşeli parantezler arasındaki her bir karakter ayrı değerlendirilmektedir.
+      Parantezler,() arasında kullanılan karakterler ise, bütün bir karakter olarak değerlendirilir.
 
+       {n} --> karakter gruplarının n kez tekrarlanması gerektiğini belirtiriz
+       ^ : Satırın başlangıcıyla match olur
+        $: Satırın sonu ile match olur.
+        . : Nokta karakteri
+    * : Yıldız karakteri. Kendinden önce gelen karakterin sıfır veya daha fazla kullanıldığında match olur
+        + :Kendinden önce gelen karakterin en az bir veya daha fazla kullanıldığında match olur
 
      */
 

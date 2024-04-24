@@ -1,5 +1,8 @@
 package sansliKullanici;
 
+import java.util.ArrayList;
+import java.util.Random;
+
 public class Listing {
 
     /*
@@ -19,9 +22,16 @@ public class Listing {
 */
 
 
-  //  static public void printHappyUsers(ArraysList<User>usersList){
+    static public void printHappyUsers(ArrayList<User> usersList){
 
 
+        Random random=new Random();
+        int randomindex= random.nextInt(usersList.size());
 
+        User LuckyUser=usersList.get(randomindex);
+        System.out.println(LuckyUser.name + "---- You are luckuser!!"+"-----You were born on " + LuckyUser.birthdate );
+
+
+    }
 
 }
