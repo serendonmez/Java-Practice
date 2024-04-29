@@ -1,0 +1,77 @@
+
+
+
+git de saklama ve version saklama yapariz
+
+
+git
+-> lokalde version yönetimi yapmak
+->offline calisabilmek
+->hatalari geri alabilmek
+->Versiyonlar arasinda gecis yapabilmek
+
+GitHub
+-> backup
+->share
+->collobration
+->deploy
+
+git init ->
+git add . -> git commit -m" message" -> git push
+message = kim , hangi version
+git add dosya adi yazarsak --> sadece o dosyayi gönderioyruz
+git add . -> herseyi gönderir.
+
+git pull <- dosya cekme
+git clone <-birinin public  projesini cektigimizde
+ bu durumda o kisi fork bildirimi gider
+git branch -> takim calismasinda kendimize ait calisma alani olusturma
+git checkout -> branch ile olusturulan calisma alani arasindaki gelis gidis yürütülen kisim
+git status-> git ile ilgili problem yasandiginda sorunu tarifler
+git revert -> eski bir version a dönmemizi saglar
+git merge-> takim halinde calisirken gönderilen repolari birlestirir
+git remote-> uzak repo ile ilgili ayarlarimiz
+git fetch-> uzak depodaki son durumu görüntüler, yerel depo ile karsilastirir,
+İşbirliği yaparken diğer geliştiricilerin yaptığı değişiklikleri görmek icin
+
+git config --global color.ui false -> konsoldaki yazilari siyah yazdirir
+git config --global color.ui true -> konsoldaki yazilari renkli yazdirir
+clear -> girilen komutlari yukari atar bos konsol elde edilir
+git config --global user.name "seren" -->
+git config --global user.email "seren@gmail.com"
+git log -> yapilan son degisiklikleri görmek icin
+--> local repo da yaptigim tüm commitleri listelemek icin
+git log --oneline -> en son yapilan degisikligi gösterir.
+(basta cikan rakamalr her commitin kimlik no sunun 7 hanesini gösteriyor)
+head olarak görülen yeni verison dur
+git checkout (commitin kimlik nosu ) --> herhangi bi version a dönmemizi saglar
+
+git add . + git commit -m "degisiklik " +git log --oneline +
+ git revert (dönmek istedigimiz version un commit kimlik nosu)
+
+git branch -> branch listesini görmek icin
+git branch branchIsmi -> yeni brnach olusturmak icin
+git checkout brnachIsmi -> yeni brnach e gecmek icin
+git merge branchIsmi -> baska branchi kullandigimiz branch ile birlestirme
+
+(not:merge yaplan branchlerde ayni kod satirinda farkli kodlar varsa conflict olusur.
+Git iki kodu da gösterir ve bizden manuel olarak düzeltmemizi ister. )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

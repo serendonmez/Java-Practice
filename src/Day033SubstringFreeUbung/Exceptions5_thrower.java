@@ -15,6 +15,7 @@ public class Exceptions5_thrower {
 
         if (number==0){
             throw new ArithmeticException("0 a bölemezsiniz");
+
             // sout ( " 0 a bölemezsiniz ") yerine exception verdik.
         }else {
             System.out.println(10/number);
