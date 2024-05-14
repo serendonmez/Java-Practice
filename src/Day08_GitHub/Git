@@ -43,14 +43,14 @@ git log -> yapilan son degisiklikleri görmek icin
 --> local repo da yaptigim tüm commitleri listelemek icin
 git log --oneline -> en son yapilan degisikligi gösterir.
 (basta cikan rakamalr her commitin kimlik no sunun 7 hanesini gösteriyor)
-head olarak görülen yeni verison dur
+head olarak görülen yeni version dir
 git checkout (commitin kimlik nosu ) --> herhangi bi version a dönmemizi saglar
 
 git add . + git commit -m "degisiklik " +git log --oneline +
  git revert (dönmek istedigimiz version un commit kimlik nosu)
 
 git branch -> branch listesini görmek icin
-git branch branchIsmi -> yeni brnach olusturmak icin
+git branch branchIsmi -> yeni branch olusturmak icin
 git checkout brnachIsmi -> yeni brnach e gecmek icin
 git merge branchIsmi -> baska branchi kullandigimiz branch ile birlestirme
 

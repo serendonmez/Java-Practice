@@ -14,10 +14,16 @@ public class M05_IfStatements {
       */
         Scanner scanner=new Scanner(System.in);
         System.out.println("Lütfen yasinizi girin");
-        int age =scanner.nextInt()
-;
+        int age =scanner.nextInt();
+        System.out.println(" Tc vatandasi iseniz E degilseniz H tuslayiniz");
+        char TcMi= scanner.next().charAt(0);
+        String TC= Character.toString(TcMi);
 
-
+        if (age>=18 && TC.equalsIgnoreCase("e") ){
+            System.out.println("Ehliyet albilirsiniz");
+        }else{
+            System.out.println(" ehliyet alamazsiniz");
+        }
 
 
 
